@@ -1,0 +1,19 @@
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  auto_ids: true
+
+permalink: /:title/
+source: docs
+baseurl: "/"
+
+title: 'Maras Blog'
+
+version: 1.1
+
+github:
+  repo: https://github.com/mplesse/blog
+
+sass:
+  style: compressed
