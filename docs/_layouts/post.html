@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>{{page.title}}</title>
+	{% include header.html %}
 </head>
 <body>
-	<a href="/">Zurück zu Start</a>
 
-	{{ content }}
+
+	<div class="wrapper">
+
+		<div class="sidebar">
+
+				<a href="/">Zurück zu Start</a>
+	
+		{% include sidebar.html %}
+
+
+		</div>
+
+		<div class="content">
+		
+		{{ content }}
+
+		</div>
+
+	</div>
+
 
 </body>
 </html>
